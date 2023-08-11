@@ -1,8 +1,9 @@
-# Sample Hardhat Project
+# Goods Authenticity Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project contains a smart contract developed with Hardhat framework. 
+It includes unit test for the contract and a script to deploy it to a blockchain.
 
-Try running some of the following tasks:
+Some same tasks:
 
 ```shell
 npx hardhat help
