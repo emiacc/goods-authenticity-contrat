@@ -216,21 +216,21 @@ describe("GoodsAuthenticity", function () {
       );
     });
 
-    it("When requesting the tokenURI", async function () {
+    it("When requesting the owner history", async function () {
       const { goodsAuthenticity } = await loadFixture(deploy);
       expect(goodsAuthenticity.getGoodOwnerHistory(1)).to.be.revertedWith(
         "GoodsAuthenticity__QueryFor_NonExistentGood"
       );
     });
 
-    it("When requesting the tokenURI", async function () {
+    it("When requesting the name", async function () {
       const { goodsAuthenticity } = await loadFixture(deploy);
       expect(goodsAuthenticity.getGoodName(1)).to.be.revertedWith(
         "GoodsAuthenticity__QueryFor_NonExistentGood"
       );
     });
 
-    it("When requesting the tokenURI", async function () {
+    it("When requesting the category", async function () {
       const { goodsAuthenticity } = await loadFixture(deploy);
       expect(goodsAuthenticity.getGoodCategory(1)).to.be.revertedWith(
         "GoodsAuthenticity__QueryFor_NonExistentGood"
