@@ -24,7 +24,7 @@ contract GoodsAuthenticity is ERC721Enumerable {
   );
 
   constructor() ERC721("GoodsAuthenticity", "GL") {
-    s_goodCounter = 69;
+    s_goodCounter = 0;
   }
 
   function mintGood(string memory name, string memory category) public {
